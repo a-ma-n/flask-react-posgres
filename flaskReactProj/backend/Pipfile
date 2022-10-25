@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+nltk = "==3.6.2."
+numpy = "==1.20.2"
+pytextrank = "==3.1.1"
+spacy = "==3.1.1"
+srsly = "==2.4.1"
+flask = "*"
+flask-sqlalchemy = "*"
+python-dotenv = "*"
+flask-cors = "*"
+psycopg2-binary = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
